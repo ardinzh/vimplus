@@ -95,17 +95,17 @@ set fileencodings=utf8,ucs-bom,gbk,cp936,gb2312,gb18030
 if has("gui_running")
     let system = system('uname -s')
     if system == "Darwin\n"
-        set guifont=Droid\ Sans\ Mono\ Nerd\ Font\ Complete:h18 " 设置字体
+        set guifont=Droid\ Sans\ Mono\ Nerd\ Font\ Complete:h16 " 设置字体
     else
-        set guifont=DroidSansMono\ Nerd\ Font\ Regular\ 18      " 设置字体
+        set guifont=DroidSansMono\ Nerd\ Font\ Regular\ 16      " 设置字体
     endif
-    set guioptions-=m           " 隐藏菜单栏
-    set guioptions-=T           " 隐藏工具栏
-    set guioptions-=L           " 隐藏左侧滚动条
-    set guioptions-=r           " 隐藏右侧滚动条
-    set guioptions-=b           " 隐藏底部滚动条
-    set showtabline=0           " 隐藏Tab栏
-    set guicursor=n-v-c:ver5    " 设置光标为竖线
+    " set guioptions-=m           " 隐藏菜单栏
+    " set guioptions-=T           " 隐藏工具栏
+    " set guioptions-=L           " 隐藏左侧滚动条
+    " set guioptions-=r           " 隐藏右侧滚动条
+    " set guioptions-=b           " 隐藏底部滚动条
+    " set showtabline=0           " 隐藏Tab栏
+    " set guicursor=n-v-c:ver5    " 设置光标为竖线
 endif
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -221,6 +221,11 @@ let g:airline_left_sep = ''
 let g:airline_left_alt_sep = ''
 let g:airline_right_sep = ''
 let g:airline_right_alt_sep = ''
+let g:airline_section_hex = airline#section#create(['%B'])
+let g:airline#extensions#default#layout = [
+  \ [ 'a', 'b', 'c' ],
+  \ [ 'x', 'y', 'hex', 'z', 'error', 'warning' ]
+  \ ]
 
 " cpp-mode
 nnoremap <leader>y :CopyCode<cr>
