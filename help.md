@@ -44,8 +44,8 @@
 | `daf`               | 删除函数内容（包括函数名 花括号）         |
 | `caf`               | 改写函数内容（包括函数名 花括号）         |
 | `fa`                | 查找字母a，然后再按f键查找下一个          |
-| `<leader>e`         | 快速编辑~/.vimrc文件                      |
-| `<leader>s`         | 重新加载~/.vimrc文件                      |
+| `<leader>e`         | 快速编辑~/.vim/vimrc文件                      |
+| `<leader>s`         | 重新加载~/.vim/vimrc文件                      |
 | `<leader>vp`        | 快速编辑~/.vim/custom.plugins文件       |
 | `<leader>vc`        | 快速编辑~/.vim/custom.config文件        |
 | `<leader>h`         | 打开vimplus帮助文档                       |

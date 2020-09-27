@@ -111,7 +111,7 @@ An automatic configuration program for vim
 
 ## 自定义
 
-> * [~/.vimrc][82]为vimplus的默认配置，一般不做修改
+> * [~/.vim/vimrc][82]为vimplus的默认配置，一般不做修改
 > * [~/.vim/custom.plugins][83]为用户自定义插件列表，用户增加、卸载插件请修改该文件
 > * [~/.vim/custom.config][84]为用户自定义配置文件，一般性配置请放入该文件，可覆盖[~/.vimrc][82]里的配置
 
@@ -200,8 +200,8 @@ An automatic configuration program for vim
 | `daf`               | 删除函数内容（包括函数名 花括号）         |
 | `caf`               | 改写函数内容（包括函数名 花括号）         |
 | `fa`                | 查找字母a，然后再按f键查找下一个          |
-| `<leader>e`         | 快速编辑~/.vimrc文件                      |
-| `<leader>s`         | 重新加载~/.vimrc文件                      |
+| `<leader>e`         | 快速编辑~/.vim/vimrc文件                      |
+| `<leader>s`         | 重新加载~/.vim/vimrc文件                      |
 | `<leader>vp`        | 快速编辑~/.vim/custom.plugins文件       |
 | `<leader>vc`        | 快速编辑~/.vim/custom.config文件        |
 | `<leader>h`         | 打开vimplus帮助文档                       |
@@ -318,6 +318,8 @@ An automatic configuration program for vim
 <a href="https://github.com/ardinzh" target="_blank" title="ardinzh">
 <img src="https://github.com/ardinzh.png?size=64" width="64" height="64" alt="ardinzh">
 </a>
+<a href="https://github.com/BD7IWD" target="_blank" title="BD7IWD">
+<img src="https://github.com/BD7IWD.png?size=64" width="64" height="64" alt="BD7IWD">
 
 
 ## 支持开源:heart:
@@ -334,6 +336,10 @@ An automatic configuration program for vim
 | 2     | [zhoumengkang][80] | ¥50   | 2019-09-29 |
 | 3     | [zibraque][85]     | ¥50   | 2019-11-25 |
 | 4     | [gfreewind][86]    | ¥20   | 2019-12-27 |
+| 5     | [wh656325437][88]  | ¥20   | 2020-07-02 |
+| 6     | [luguifang][89]    | ¥20   | 2020-07-12 |
+| 7     | [liyewen521][90]   | ¥20   | 2020-07-27 |
+| 8     | [xht19980305][91]  | ¥20   | 2020-08-14 |
 
 
 ## vimplus:star:趋势图
@@ -402,4 +408,8 @@ This software is licensed under the [MIT license][75]. © 2016 chxuan
   [85]: https://github.com/zibraque
   [86]: https://github.com/gfreewind
   [87]: https://termux.com/
+  [88]: https://github.com/wh656325437
+  [89]: https://github.com/luguifang
+  [90]: https://github.com/liyewen521
+  [91]: https://github.com/xht19980305
 
