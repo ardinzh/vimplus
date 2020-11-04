@@ -255,7 +255,7 @@ function install_prepare_software_on_mac()
 # 安装FreeBSD必备软件
 function install_prepare_software_on_freebsd()
 {
-    sudo pkg install vim ctags automake gcc cmake p5-ack python git fontconfig
+    sudo pkg install -y vim ctags automake gcc cmake p5-ack python git fontconfig
 }
 
 # 安装android平台必备软件
